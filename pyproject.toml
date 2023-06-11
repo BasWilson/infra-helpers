@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "infra-helpers"
+version = "0.1.0"
+description = "Helpers for infra providers and the cli"
+authors = ["Bas Wilson <friedcatps@gmail.com>"]
+readme = "README.md"
+packages = [{include = "infra_helpers"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pyyaml = "^6.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
